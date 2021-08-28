@@ -1,0 +1,89 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+nav {
+  font-size: 1.5em;
+}
+
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* min-width: minimum of certain px and upwards */
+/* max-width: max of certain px and below */
+
+/* Between 600px and 800px */
+/* @media (min-width: 600px) and (max-width: 800px) {
+  h1 {
+    color: purple;
+  }
+} */
+
+/* @media (max-width: 500px) {
+  h1 {
+    color: red;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+  h1 {
+    color: blue;
+  }
+} */
+
+/* Larger screen sizes should be first */
+/* @media (max-width: 1500px) {
+  h1 {
+    color: yellow;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    color: violet;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    color: brown;
+  }
+}
+
+@media (max-width: 100px) {
+  h1 {
+    color: purple;
+  }
+} */
+
+/* Also possible to do it this way */
+h1 {
+  color: red;
+}
+
+@media (min-width: 500px) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    color: teal;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    color: orangered;
+  }
+}
